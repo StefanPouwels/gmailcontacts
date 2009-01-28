@@ -1,0 +1,16 @@
+application: gmailcontacts
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+  # domain switcher
+- url: /
+  script: switch.py
+
+- url: /index\.html
+  script: switch.py
+
+- url: /css/
+  static_dir: css/
