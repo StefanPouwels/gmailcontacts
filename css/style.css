@@ -1,9 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	margin-left:10px;
-	background-color: rgb(197,204,211);	 /* Set the page color to light blue */
-	-webkit-text-size-adjust:none;		  /* Turn off font resizing */
+	margin-left:0px;
+	background-color: rgb(0,0,0);	 /* Set the page color to light blue */
+	-webkit-text-size-adjust:none;		  /* Turn off font resizing */	
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 	padding-left:10px;
 	
 	font-size:17px;
-	font-family: Helvetica;
+	font-family: Arial;
 	font-weight:bold;
 	color: rgb(76,86,108);	 /* Set each label color */		
 }
@@ -37,32 +37,32 @@ p
 	padding-left:10px;
 	
 	font-size:13px;
-	font-family: Helvetica;
+	font-family: Arial;
 	font-weight: normal;
-	color: rgb(0,0,0);	 /* Set each label color */		
+	color: #FFFFFF;	 /* Set each label color */		
 }
 
 ul 
 {	   
 	padding: 0;	   
 	margin-top:0;
-	margin-right:10px;
-	margin-bottom:17px;		  /* Set each list 17 pixels from the top of the button bar(or the top of the next list) */
+	margin-right:0px;
+	margin-bottom:0px;		  /* Set each list 17 pixels from the top of the button bar(or the top of the next list) */
 	
-	font-size:17px;
-	font-family: Helvetica;
-	font-weight:bold;
-	color:black;
+	font-size:22px;
+	font-family: Arial;
+	font-weight:normal;
+	color:#EFEFEF;
 	
 	width: inherit;
-	background-color: white;       /* Each list has a white background fill */
-	
-	border-width: 1px;		       /* Draw a rectangle around each list */
-	border-style:solid ;
-	border-color:rgb(217,217,217);
+	background-color: black;       /* Each list has a white background fill */
+	/*
+	border-bottom-width: 1px;		        Draw a rectangle around each list 
+	border-bottom-style:solid ;
+	border-bottom-color:#A5A6A5;
 	
 	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;		 /* Round each corner of the created rectangle */
+	-webkit-border-radius: 8px;		  Round each corner of the created rectangle */
 }
 
 
@@ -72,11 +72,11 @@ li
 	
 	border-top-width:1px;	/* Create lines between cells. Each line is placed above each item */
 	border-top-style:solid;
-	border-top-color:rgb(217,217,217);
+	border-top-color:#A5A6A5;
 
-	padding-top:10px;		  
+	padding-top:5px;		  
 	padding-right:10px;		 
-	padding-bottom:14px;	 /* Indent the cell content 14 pixels from the bottom edge of a cell */
+	padding-bottom:5px;	 /* Indent the cell content 14 pixels from the bottom edge of a cell */
 	padding-left:10px;	
 }
 
@@ -99,11 +99,11 @@ a  /* Handle the click/tap highlight. Highlight an entire cell with the iPhone g
 	/* The margin properties adjust the size of the href block	*/
 	margin-top: -8px;
 	margin-right: -8px;
-	margin-bottom: -12px;
+	margin-bottom: -9px;
 	margin-left: -8px;	 
 	
 	text-decoration: none;
-	color:black;
+	color:#EFEFEF;
 }
 
 a[href="#current"] {
